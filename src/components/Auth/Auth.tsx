@@ -293,12 +293,12 @@ export const Auth = (props:Props) => {
             <NavBar />
             <Box sx={ authStyles.main}>
                 <Stack direction = 'column' alignItems = 'center' textAlign = 'center' sx={authStyles.stack}>
-                    <Typography variant='h2' sx={{color: 'white'}}>
+                    <Typography variant='h3' sx={{color: 'white'}}>
                         {props.title}
                     </Typography>
                     <br />
                     <Typography variant='h5'>
-                        Track your shops items for free!
+                        Enter Your Garage.
                     </Typography>
                     <br />
                     <GoogleButton open={open} onClick={() => setOpen(false)} />

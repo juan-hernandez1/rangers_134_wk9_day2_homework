@@ -48,7 +48,7 @@ export const Home = (props: Props) => {
             <Main>
                 <MainText>
                     <Typography variant='h3'> { props.title }</Typography>
-                    <Button sx={{ marginTop: '10px'}} component={Link} to={"/shop"} variant='contained'>Enter</Button>
+                    <Button sx={{ marginTop: '10px'}} component={Link} to={"/auth"} variant='contained'>Enter</Button>
                 </MainText>
             </Main>
         </Root>
